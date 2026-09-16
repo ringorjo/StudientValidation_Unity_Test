@@ -6,7 +6,7 @@ TextureImporter:
   serializedVersion: 13
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -37,13 +37,13 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,9 +52,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -108,12 +108,496 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: studient_card_1
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1505
+        width: 784
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 35, y: 35, z: 35, w: 35}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cfc365f6d127f84a9af676056045362
+      internalID: -2122612951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: studient_card_2
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 1505
+        width: 786
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 20, y: 20, z: 20, w: 20}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e3cbd9b142360d49b30ff0ff2560159
+      internalID: -1819500818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aproved_banner
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1302
+        width: 784
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 80, y: 21, z: 34, w: 22}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c55600c0d309344c8debcf9500a0f10
+      internalID: 1740240216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: denied_pannel
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 1301
+        width: 784
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 80, y: 19, z: 22, w: 20}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae60c21707bdd0649be1dc3465c720c7
+      internalID: 1754246753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aproved_content
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 534
+        width: 742
+        height: 666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4349d1917e3a00042afe87c7f3d476f9
+      internalID: -895735490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: denied_panne
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 534
+        width: 750
+        height: 670
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d452936cc7d21546896a840db501150
+      internalID: 167109476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: validate_nomral
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 2095
+        width: 220
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 15, y: 15, z: 15, w: 15}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf480d45036bd449943adcd9185dbb5
+      internalID: 361905172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: validate_hover
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 2096
+        width: 220
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 15, y: 15, z: 15, w: 15}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61eda8bb962ec634cb3dc90ed301c030
+      internalID: 1292319350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: validate_selected
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 2096
+        width: 220
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 15, y: 15, z: 15, w: 15}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3209dcb1432469c40b7b64d466893025
+      internalID: 1493719901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: validate_disabled
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 2096
+        width: 220
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 15, y: 15, z: 15, w: 15}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33c82e728da1bbf4fa337264bb71e439
+      internalID: -712678393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: continue_btn_1
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1933
+        width: 220
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 15, y: 15, z: 15, w: 15}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1135fd05bb7a16746b7b77ef516a4a4c
+      internalID: 1826607149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: continue_btn2
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 1932
+        width: 220
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 15, y: 15, z: 15, w: 15}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 747a26199228d444f9ebad08458da0b5
+      internalID: -908336443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toggle_empty
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 1926
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c73e994697da9e4f9ec866883126bf9
+      internalID: -1843767496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toggle_aproved
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 1926
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb59bc3bd51812b459e777244e888efa
+      internalID: 71205767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toggle_denied
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 1924
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 941cad1a7d32a3d4a883cc5f2bd5d407
+      internalID: 1666599554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aproved_icon
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1730
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 942665b52c6af634db3435d91624604b
+      internalID: -978810017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: denied_icon
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1731
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e5f3e33e4e8da94a970f1748205d4d0
+      internalID: -2051507596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendient
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1727
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e22c1854464f64d984888123637cb5
+      internalID: -1966279026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: user_icon
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 1732
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ca40d2a23f45c46bd5d0ab8f822b77
+      internalID: -1092401011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: header
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 277
+        width: 1620
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 52, y: 40, z: 62, w: 40}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c75ec4dc7ce735a4c93c45da8713f074
+      internalID: -1081212145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: drag_icon
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 117
+        width: 95
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06e7c5f4648a094b852ac582f0032fa
+      internalID: -181521185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: notepanel_icon
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 114
+        width: 110
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fd0c3b68d74fff40852641a574cfc28
+      internalID: -2052202531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 9160aad35aff2564183b37cae0f079f0
     internalID: 0
     vertices: []
     indices: 
@@ -122,7 +606,30 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      aproved_b: -978810017
+      aproved_banner: 1740240216
+      aproved_content: -895735490
+      aproved_icon: -978810017
+      continue_btn2: -908336443
+      continue_btn_1: 1826607149
+      denied_icon: -2051507596
+      denied_panne: 167109476
+      denied_pannel: 1754246753
+      drag_icon: -181521185
+      header: -1081212145
+      notepanel_icon: -2052202531
+      pendient: -1966279026
+      studient_card_1: -2122612951
+      studient_card_2: -1819500818
+      toggle_aproved: 71205767
+      toggle_denied: 1666599554
+      toggle_empty: -1843767496
+      user_icon: -1092401011
+      validate_disabled: -712678393
+      validate_hover: 1292319350
+      validate_nomral: 361905172
+      validate_selected: 1493719901
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
