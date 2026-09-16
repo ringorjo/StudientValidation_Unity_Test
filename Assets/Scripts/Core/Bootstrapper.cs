@@ -17,8 +17,6 @@ public class Bootstrapper : MonoBehaviour
 
         _gradeValidationService = new GradeValidationService(_gradeValidationConfig);
         _gradeValidationService.Register();
-
-        _studentRepository.Load();
     }
 
     private void OnDestroy()
