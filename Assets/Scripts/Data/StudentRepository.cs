@@ -5,8 +5,8 @@ using UnityEngine;
 
 public class StudentRepository : IStudentRepository
 {
-    private const float MinNota = 0f;
-    private const float MaxNota = 5f;
+    private const float MinGrade = 0f;
+    private const float MaxGrade = 5f;
 
     private readonly IJsonDeserializer _deserializer;
     private readonly string _jsonFilePath;
@@ -79,7 +79,7 @@ public class StudentRepository : IStudentRepository
             return false;
         }
 
-        if (float.IsNaN(source.notaFinal) || source.notaFinal < MinNota || source.notaFinal > MaxNota)
+        if (float.IsNaN(source.notaFinal) || source.notaFinal < MinGrade || source.notaFinal > MaxGrade)
         {
             Debug.LogWarning($"StudentRepository: entry at index {index} (codigo={source.codigo}) has an out-of-range notaFinal ({source.notaFinal}), skipping.");
             return false;
@@ -87,11 +87,11 @@ public class StudentRepository : IStudentRepository
 
         record = new StudentRecord
         {
-            Nombre = source.nombre,
-            Apellido = source.apellido,
-            Codigo = source.codigo,
-            Correo = source.correo,
-            NotaFinal = source.notaFinal
+            FirstName = source.nombre,
+            LastName = source.apellido,
+            Code = source.codigo,
+            Email = source.correo,
+            FinalGrade = source.notaFinal
         };
         return true;
     }

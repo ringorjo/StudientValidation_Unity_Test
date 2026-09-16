@@ -1,11 +1,11 @@
 [System.Serializable]
 public class StudentRecord
 {
-    public string Nombre;
-    public string Apellido;
-    public string Codigo;
-    public string Correo;
-    public float NotaFinal;
+    public string FirstName;
+    public string LastName;
+    public string Code;
+    public string Email;
+    public float FinalGrade;
 
-    public string NombreCompleto => $"{Nombre} {Apellido}";
+    public string FullName => $"{FirstName} {LastName}";
 }

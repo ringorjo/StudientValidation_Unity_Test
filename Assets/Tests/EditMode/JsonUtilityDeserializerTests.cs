@@ -8,7 +8,7 @@ public class JsonUtilityDeserializerTests
     }
 
     [Test]
-    public void TryDeserialize_JsonValido_RetornaTrueYObjetoPoblado()
+    public void TryDeserialize_ValidJson_ReturnsTrueAndPopulatedObject()
     {
         var deserializer = new JsonUtilityDeserializer();
 
@@ -19,7 +19,7 @@ public class JsonUtilityDeserializerTests
     }
 
     [Test]
-    public void TryDeserialize_JsonInvalido_RetornaFalse()
+    public void TryDeserialize_InvalidJson_ReturnsFalse()
     {
         var deserializer = new JsonUtilityDeserializer();
 

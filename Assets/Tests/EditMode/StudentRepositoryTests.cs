@@ -7,7 +7,7 @@ using UnityEngine.TestTools;
 public class StudentRepositoryTests
 {
     [Test]
-    public void Load_TodosLosRegistrosValidos_CargaTodos()
+    public void Load_AllRecordsValid_LoadsAll()
     {
         var dto = new StudentListJsonDto
         {
@@ -27,7 +27,7 @@ public class StudentRepositoryTests
     }
 
     [Test]
-    public void Load_RegistroConCampoFaltante_SeDescartaYContinua()
+    public void Load_RecordWithMissingField_DiscardsAndContinues()
     {
         var dto = new StudentListJsonDto
         {
@@ -44,11 +44,11 @@ public class StudentRepositoryTests
         repo.Load();
 
         Assert.AreEqual(1, result.Count);
-        Assert.AreEqual("1", result[0].Codigo);
+        Assert.AreEqual("1", result[0].Code);
     }
 
     [Test]
-    public void Load_NotaFueraDeRango_SeDescartaYContinua()
+    public void Load_GradeOutOfRange_DiscardsAndContinues()
     {
         var dto = new StudentListJsonDto
         {
@@ -67,7 +67,7 @@ public class StudentRepositoryTests
     }
 
     [Test]
-    public void Load_JsonNoParseable_NoLanzaYDevuelveListaVacia()
+    public void Load_JsonNotParseable_DoesNotThrowAndReturnsEmptyList()
     {
         var repo = new StudentRepository(new FakeJsonDeserializer(null, shouldSucceed: false), "unused.json", _ => "{}");
         IReadOnlyList<StudentRecord> result = null;
@@ -82,7 +82,7 @@ public class StudentRepositoryTests
     }
 
     [Test]
-    public void Load_ArchivoNoExiste_NoLanzaYDevuelveListaVacia()
+    public void Load_FileDoesNotExist_DoesNotThrowAndReturnsEmptyList()
     {
         var repo = new StudentRepository(new JsonUtilityDeserializer(), "ruta/que/no/existe.json");
         IReadOnlyList<StudentRecord> result = null;
