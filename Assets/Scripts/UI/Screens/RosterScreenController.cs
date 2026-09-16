@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -11,6 +12,7 @@ public class RosterScreenController : MonoBehaviour
     [SerializeField] private Button _continueButton;
     [SerializeField] private ResultBannerView _resultBanner;
     [SerializeField] private UIScreenManager _screenManager;
+    [SerializeField] private TMP_Text _studentCountText;
 
     private IStudentRepository _studentRepository;
     private IGradeValidationService _gradeValidationService;
@@ -19,14 +21,19 @@ public class RosterScreenController : MonoBehaviour
 
     private void Awake()
     {
-        _studentRepository = ServiceLocator.Instance.Get<IStudentRepository>();
-        _gradeValidationService = ServiceLocator.Instance.Get<IGradeValidationService>();
         _rowPool = new ObjectPool<StudentRowView>(_rowPrefab, _rowsContainer);
 
         _validateButton.onClick.AddListener(HandleValidateClicked);
         _reloadButton.onClick.AddListener(HandleReloadClicked);
         _continueButton.onClick.AddListener(HandleContinueClicked);
+    }
+
+    private void Start()
+    {
+        _studentRepository = ServiceLocator.Instance.Get<IStudentRepository>();
+        _gradeValidationService = ServiceLocator.Instance.Get<IGradeValidationService>();
         _studentRepository.OnStudentsLoaded += HandleStudentsLoaded;
+        _studentRepository.Load();
     }
 
     private void OnDestroy()
@@ -54,6 +61,7 @@ public class RosterScreenController : MonoBehaviour
             _presenters.Add(presenter);
         }
 
+        if (_studentCountText != null) _studentCountText.text = $"{students.Count} estudiantes";
         _resultBanner.ShowIdle();
     }
 
