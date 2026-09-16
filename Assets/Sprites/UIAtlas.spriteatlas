@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UIAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 8
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: e8593e5c52a051b4886803fc6c93fe94, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - e8593e5c52a051b4886803fc6c93fe94: -895735490
+    - e8593e5c52a051b4886803fc6c93fe94: 1493719901
+    - e8593e5c52a051b4886803fc6c93fe94: -978810017
+    - e8593e5c52a051b4886803fc6c93fe94: -1843767496
+    - e8593e5c52a051b4886803fc6c93fe94: -1092401011
+    - e8593e5c52a051b4886803fc6c93fe94: -2051507596
+    - e8593e5c52a051b4886803fc6c93fe94: 1666599554
+    - e8593e5c52a051b4886803fc6c93fe94: -908336443
+    - e8593e5c52a051b4886803fc6c93fe94: -2052202531
+    - e8593e5c52a051b4886803fc6c93fe94: 167109476
+    - e8593e5c52a051b4886803fc6c93fe94: -1081212145
+    - e8593e5c52a051b4886803fc6c93fe94: -181521185
+    - e8593e5c52a051b4886803fc6c93fe94: 1754246753
+    - e8593e5c52a051b4886803fc6c93fe94: 1292319350
+    - e8593e5c52a051b4886803fc6c93fe94: -1966279026
+    - e8593e5c52a051b4886803fc6c93fe94: -712678393
+    - e8593e5c52a051b4886803fc6c93fe94: 71205767
+    - e8593e5c52a051b4886803fc6c93fe94: 1740240216
+    - e8593e5c52a051b4886803fc6c93fe94: 361905172
+    - e8593e5c52a051b4886803fc6c93fe94: -1819500818
+    - e8593e5c52a051b4886803fc6c93fe94: -2122612951
+    - e8593e5c52a051b4886803fc6c93fe94: 1826607149
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: -895735490, guid: e8593e5c52a051b4886803fc6c93fe94, type: 3}
+  - {fileID: 1493719901, guid: e8593e5c52a051b4886803fc6c93fe94, type: 3}
+  - {fileID: -978810017, guid: e8593e5c52a051b4886803fc6c93fe94, type: 3}
+  - {fileID: -1843767496, guid: e8593e5c52a051b4886803fc6c93fe94, type: 3}
+  - {fileID: -1092401011, guid: e8593e5c52a051b4886803fc6c93fe94, type: 3}
+  - {fileID: -2051507596, guid: e8593e5c52a051b4886803fc6c93fe94, type: 3}
+  - {fileID: 1666599554, guid: e8593e5c52a051b4886803fc6c93fe94, type: 3}
+  - {fileID: -908336443, guid: e8593e5c52a051b4886803fc6c93fe94, type: 3}
+  - {fileID: -2052202531, guid: e8593e5c52a051b4886803fc6c93fe94, type: 3}
+  - {fileID: 167109476, guid: e8593e5c52a051b4886803fc6c93fe94, type: 3}
+  - {fileID: -1081212145, guid: e8593e5c52a051b4886803fc6c93fe94, type: 3}
+  - {fileID: -181521185, guid: e8593e5c52a051b4886803fc6c93fe94, type: 3}
+  - {fileID: 1754246753, guid: e8593e5c52a051b4886803fc6c93fe94, type: 3}
+  - {fileID: 1292319350, guid: e8593e5c52a051b4886803fc6c93fe94, type: 3}
+  - {fileID: -1966279026, guid: e8593e5c52a051b4886803fc6c93fe94, type: 3}
+  - {fileID: -712678393, guid: e8593e5c52a051b4886803fc6c93fe94, type: 3}
+  - {fileID: 71205767, guid: e8593e5c52a051b4886803fc6c93fe94, type: 3}
+  - {fileID: 1740240216, guid: e8593e5c52a051b4886803fc6c93fe94, type: 3}
+  - {fileID: 361905172, guid: e8593e5c52a051b4886803fc6c93fe94, type: 3}
+  - {fileID: -1819500818, guid: e8593e5c52a051b4886803fc6c93fe94, type: 3}
+  - {fileID: -2122612951, guid: e8593e5c52a051b4886803fc6c93fe94, type: 3}
+  - {fileID: 1826607149, guid: e8593e5c52a051b4886803fc6c93fe94, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - aproved_content
+  - validate_selected
+  - aproved_icon
+  - toggle_empty
+  - user_icon
+  - denied_icon
+  - toggle_denied
+  - continue_btn2
+  - notepanel_icon
+  - denied_panne
+  - header
+  - drag_icon
+  - denied_pannel
+  - validate_hover
+  - pendient
+  - validate_disabled
+  - toggle_aproved
+  - aproved_banner
+  - validate_nomral
+  - studient_card_2
+  - studient_card_1
+  - continue_btn_1
+  m_RenderDataMap: {}
+  m_Tag: UIAtlas
+  m_IsVariant: 0

@@ -1,3 +1,5 @@
+using UnityEngine;
+
 public class GradeValidationService : IGradeValidationService
 {
     private readonly GradeValidationConfig _config;
@@ -13,4 +15,9 @@ public class GradeValidationService : IGradeValidationService
     public bool Passes(StudentRecord student) => student.FinalGrade >= _config.PassingThreshold;
 
     public bool MatchesMarkedStatus(StudentRecord student, bool markedAsApproved) => Passes(student) == markedAsApproved;
+
+    public string ApprovedLabel => _config.ApprovedLabel;
+    public string FailedLabel => _config.FailedLabel;
+    public Color ApprovedColor => _config.ApprovedColor;
+    public Color FailedColor => _config.FailedColor;
 }
